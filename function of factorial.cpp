@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+int f;
 int factorial (int);
 
 main()
@@ -9,7 +9,7 @@ main()
     printf("n");
     scanf("%d",&n);
     
-    printf("the factorial of the %d is %d",n,factorial(n));
+    printf("the factorial of the %d is",f);
 }
 
 int factorial (int x)
