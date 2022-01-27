@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int a,b,p=0;
+	scanf("%d",&a);
+	for(b=1;b<=a;b++)
+	{
+		if(a%b==0)
+		{
+			p=p+1;
+		}
+	}
+	if(p==2)
+	{
+	printf("%d",p);
+    }
+    else
+    printf("%d",p);
+}
